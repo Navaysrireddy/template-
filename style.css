@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    font-size:22px;
+    text-align: justify;
+    margin-bottom: 40px;
+    display: inline-block;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 1000;
+    background-color: white;
+    padding-bottom: 30px;
+}
+.architect{
+    margin-right: 590px;
+    margin-left: 90px;
+    position:relative;
+    left: 10px;
+    transition: background-color 0.5sec ease smooth;
+}
+.architect:hover,.projects:hover,.about:hover,.contact:hover{
+    background-color: rgb(189, 20, 20);
+}
+.projects,.about,.contact{
+    margin-right: 40px;
+    position: relative;
+    right: 0px;
+}
+.image{
+    position: relative;
+}
+.Archi{
+    position: absolute;
+    left:550px;
+    top:400px;
+    font-size: 36px;
+    color: rgb(204, 24, 24);
+}
+b{
+    background-color: rgba(17, 19, 151, 0.336);
+    font-size: 34px;
+    
+}
+h3{
+    font-size: 30px;
+    margin: 10px;
+}
+.image1,.image2,.image3,.image4,.image5,.image6,.image7,.image8{
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+img{
+    width: 100%;
+}
+
+p{
+    font-size: 19px;
+    position: absolute;
+    left:9px;
+    z-index: 1;
+    top:0px;
+    color: rgb(207, 25, 110);
+    padding: 10px;
+}
+p{
+    background-color: black;
+}
